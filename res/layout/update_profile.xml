@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/home_scroll" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg10">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+
+    <LinearLayout android:orientation="vertical"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="#000000"
+                 android:gravity="center"
+                 >
+       <TextView android:text="Update Profile Details"
+                 android:textColor="#ffffff"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30px"
+                 android:textSize="21sp"
+                 android:gravity="center|top"
+                 
+                 />
+    </LinearLayout>
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="1"
+	    android:layout_marginLeft="5px"
+	    android:gravity="center"
+    >
+      
+        <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px"
+                 
+        >
+                 
+       			<TextView 
+       			           android:layout_width="90px"
+                           android:layout_height="wrap_content"
+                           android:text="Name : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_name"
+       			           android:layout_width="200px"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       </TableRow>
+        
+        <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Username : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/un"
+       			           android:editable="false"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       </TableRow>
+       
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Password : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			    
+       			           android:id="@+id/pwd"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       </TableRow>
+       
+<!--            
+           
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Gender : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/sex"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       </TableRow>  
+       
+       
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="DOB : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       			 
+       			<EditText
+       			           android:id="@+id/dob"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       </TableRow>     
+            
+       
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Location : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/location"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       </TableRow>
+        
+ -->      
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Mobile : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_cell"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+                           android:inputType="phone"
+       			 />
+       			
+       </TableRow>   
+       
+       
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Phone : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_phone"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+                           android:inputType="phone"
+       			 />
+       			
+       </TableRow>    
+           
+       
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Email : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+                           android:inputType="textEmailAddress"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_email"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       </TableRow>
+       
+        <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Address : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_address"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="100px"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="1px"
+       			 />
+       			
+       </TableRow>  
+       
+<!--      
+       <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="7px">
+                 
+       			<TextView 
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Remarks : "
+                           android:textColor="#ffffff"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       			 
+       			<EditText 
+       			           android:id="@+id/p_remarks"
+       			           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="5px"
+       			 />
+       			
+       </TableRow>
+-->                
+        
+    </TableLayout>
+    
+    <LinearLayout android:orientation="vertical"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 >
+        <TextView
+                 android:id="@+id/exception"
+                 android:layout_x="10px"
+                 android:layout_y="375px"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:textSize="14px"
+                 android:textStyle="bold"
+                 android:textColor="#ff00ff"
+                 android:text="">
+                
+      </TextView>
+             
+    </LinearLayout>
+    
+     <TableLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:orientation="vertical"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:stretchColumns="1"
+				    android:background="#242424"
+				    android:layout_marginTop="5px"
+				    android:gravity="center"
+    >
+        
+         
+           <TableRow android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="0px"
+            >
+                 
+       			<Button 
+       			           android:id="@+id/cancel"
+       			           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Cancel"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="30px"
+       			 />
+       			
+       			 
+       			<Button 
+       			           android:id="@+id/update_profile"
+       			           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Update Profile Details"
+                           android:textColor="#000000"
+                           android:textSize="14px"
+                           android:textStyle="bold"
+                           android:layout_marginLeft="7px"
+                           android:layout_marginRight="20px"
+       			 />
+       			
+       			
+       </TableRow>
+        
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

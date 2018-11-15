@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg">
+  
+  <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<ImageButton 
+             android:background="@drawable/home1" 
+             android:id="@+id/home" 
+             android:layout_height="50px" 
+             android:layout_width="50px" 
+             android:layout_x="5dip" 
+             android:layout_y="0dip">
+</ImageButton>
+
+<ImageButton 
+             android:background="@drawable/exit" 
+             android:id="@+id/exit" 
+             android:layout_height="50px" 
+             android:layout_width="50px" 
+             android:layout_x="275dip" 
+             android:layout_y="0dip">
+</ImageButton>
+
+
+<TextView
+          android:layout_x="100px"
+          android:layout_y="15px"
+          android:textSize="17px"
+          android:textStyle="bold"
+          android:textColor="#ff0000"
+          android:text="Welcome To HelpDesk"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="1px"
+          android:layout_y="8px"
+          android:textSize="35px"
+          android:textStyle="bold"
+          android:textColor="#f00000"
+          android:text="_______________________________"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="2px"
+          android:layout_y="55px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="This Application is mainly developed for monitoring the patient healthcare that are suffering from dangerous diseases.Its Provides e-Care bases on patient heath update through mobile."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="2px"
+          android:layout_y="160px"
+          android:textSize="18px"
+          android:textStyle="bold"
+          android:textColor="#0000ff"
+          android:text="User Guide : "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="195px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="1. Go To Your Mobile Apps Menu "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="220px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="2. Double Click On Your Application Icon."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="245px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="3. Home Screen -> Click On Mobile Menu."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="270px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="4. Select Help For User Friendly Guide.."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="295px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="5. Select Login to Loging to Your App"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="320px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="6. Monitor The Patient Health."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="345px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="7. View Location Map."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="370px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="8. Get Help."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          android:layout_x="10px"
+          android:layout_y="395px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text="9. Use Settings."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+</TextView>
+
+<TextView
+          
+          android:layout_x="75px"
+          android:layout_y="420px"
+          android:textSize="15px"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:text=" ***** Thank You *****"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+</TextView>
+
+</AbsoluteLayout>
+</ScrollView>
